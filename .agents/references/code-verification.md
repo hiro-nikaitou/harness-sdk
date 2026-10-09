@@ -6,7 +6,7 @@ The docs site lives under `site/` in this repo. All paths in this guide — incl
 
 Use the first tier available in your environment. Fall back only when the preferred tier is unavailable.
 
-## Tier 1: Local SDK Clones (preferred)
+## Tier 1: Local SDK Sources (preferred)
 
 The SDK sources are local to this repo, so read directly from disk — it's faster than network calls and avoids API rate limits:
 
@@ -65,7 +65,7 @@ If the local sources aren't present, fall back to Tier 2.
 
 ## Tier 2: GitHub API
 
-If the local clones aren't available, fetch source through the GitHub API:
+If the local sources aren't available, fetch source through the GitHub API:
 
 ```bash
 # Python SDK (now local at strands-py/src/strands/)
